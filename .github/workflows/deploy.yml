@@ -7,10 +7,9 @@ on:
     branches: [ main ]
 
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest
+  build-and-deploy:    runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       pages: write
       id-token: write
     
