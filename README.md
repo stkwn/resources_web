@@ -18,7 +18,7 @@
 - **样式方案**: Styled Components
 - **语言**: JavaScript (ES6+)
 - **数据存储**: JSON 文件
-- **部署**: AWS + GitHub
+- **部署**: GitHub Pages
 
 ## 项目结构
 
@@ -26,23 +26,30 @@
 resources_web/
 ├── public/
 │   ├── index.html
-│   └── favicon.ico
+│   ├── favicon.ico
+│   └── CNAME                 # 自定义域名配置
 ├── src/
 │   ├── components/
-│   │   ├── SiteCard/
-│   │   ├── SearchBar/
-│   │   ├── CategoryFilter/
-│   │   └── Header/
+│   │   ├── SiteCard/         # 网站卡片组件
+│   │   ├── SearchBar/        # 搜索栏组件
+│   │   ├── CategoryFilter/   # 分类筛选组件
+│   │   ├── TagFilter/        # 标签筛选组件
+│   │   ├── Header/           # 页面头部组件
+│   │   └── Footer/           # 页面底部组件
 │   ├── data/
-│   │   └── sites.json
+│   │   └── sites.json        # 网站数据
 │   ├── styles/
-│   │   └── GlobalStyles.js
-│   ├── utils/
-│   │   └── helpers.js
-│   ├── App.js
-│   └── index.js
+│   │   ├── GlobalStyles.js   # 全局样式
+│   │   ├── theme.js          # 主题配置
+│   │   └── styleUtils.js     # 样式工具
+│   ├── App.jsx
+│   └── main.jsx
+├── .github/
+│   └── workflows/
+│       └── deploy.yml        # GitHub Actions 部署配置
 ├── package.json
 ├── vite.config.js
+├── DEPLOYMENT.md             # 部署指南
 └── README.md
 ```
 
@@ -166,15 +173,38 @@ npm run build
 
 ## 部署说明
 
-项目将通过 GitHub Actions 自动部署到 AWS，具体配置将在后续开发中完成。
+项目通过 GitHub Pages 自动部署：
+
+### 🚀 快速部署
+1. 推送代码到 GitHub
+2. 在仓库设置中开启 GitHub Pages
+3. 选择 `gh-pages` 分支作为源
+4. 访问: `https://yourusername.github.io/resources-web`
+
+### 🌐 自定义域名（可选）
+1. 购买域名并配置 DNS
+2. 修改 `public/CNAME` 文件
+3. 在 GitHub Pages 设置中添加自定义域名
+
+详细部署指南请查看 [DEPLOYMENT.md](./DEPLOYMENT.md)
+
+## 在线演示
+
+- GitHub Pages: `https://yourusername.github.io/resources-web`
+- 自定义域名: `https://your-domain.com` (如果配置)
 
 ## 贡献指南
 
 1. Fork 项目
-2. 创建功能分支
-3. 提交更改
-4. 发起 Pull Request
+2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 发起 Pull Request
+
+## 作者
+
+- **Arina-Dev** - *Initial work* - 2025
 
 ## 许可证
 
-MIT Licen
+MIT License
