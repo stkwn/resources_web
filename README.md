@@ -176,22 +176,24 @@ npm run build
 项目通过 GitHub Pages 自动部署：
 
 ### 🚀 快速部署
-1. 推送代码到 GitHub
+1. 推送代码到 GitHub: `git push origin main`
 2. 在仓库设置中开启 GitHub Pages
 3. 选择 `gh-pages` 分支作为源
-4. 访问: `https://yourusername.github.io/resources-web`
+4. GitHub Actions 自动构建并部署
 
-### 🌐 自定义域名（可选）
-1. 购买域名并配置 DNS
-2. 修改 `public/CNAME` 文件
-3. 在 GitHub Pages 设置中添加自定义域名
+### 🌐 访问网站
+- **自定义域名**: https://tools.arina-dev.com
+- **GitHub域名**: https://yourusername.github.io/resources-web
 
-详细部署指南请查看 [DEPLOYMENT.md](./DEPLOYMENT.md)
+### 📋 DNS配置
+如需使用自定义域名，请在域名注册商配置DNS A记录指向GitHub Pages IP地址。
+
+详细部署指南请查看 [DEPLOY_GITHUB_PAGES.md](./DEPLOY_GITHUB_PAGES.md)
 
 ## 在线演示
 
-- GitHub Pages: `https://yourusername.github.io/resources-web`
-- 自定义域名: `https://your-domain.com` (如果配置)
+- **主域名**: https://tools.arina-dev.com
+- **GitHub Pages**: https://yourusername.github.io/resources-web
 
 ## 贡献指南
 
