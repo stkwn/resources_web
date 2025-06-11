@@ -1,0 +1,407 @@
+{
+  "sites": [
+    {
+      "id": 1,
+      "title": "React 官方文档",
+      "url": "https://react.dev",
+      "description": "React 官方文档，学习现代 React 的最佳资源",
+      "category": "学习资源",
+      "tags": ["React", "文档", "前端"],
+      "favicon": "https://react.dev/favicon.ico",
+      "addedDate": "2025-06-10"
+    },
+    {
+      "id": 2,
+      "title": "VS Code",
+      "url": "https://code.visualstudio.com",
+      "description": "轻量级但功能强大的代码编辑器",
+      "category": "开发工具",
+      "tags": ["编辑器", "IDE", "微软"],
+      "favicon": "https://code.visualstudio.com/favicon.ico",
+      "addedDate": "2025-06-10"
+    },
+    {
+      "id": 3,
+      "title": "GitHub",
+      "url": "https://github.com",
+      "description": "全球最大的代码托管平台",
+      "category": "GitHub项目",
+      "tags": ["代码托管", "开源", "版本控制"],
+      "favicon": "https://github.com/favicon.ico",
+      "addedDate": "2025-06-10"
+    },
+    {
+      "id": 4,
+      "title": "Can I Use",
+      "url": "https://caniuse.com",
+      "description": "查看浏览器对 Web 技术的支持情况",
+      "category": "在线工具",
+      "tags": ["浏览器兼容性", "前端", "查询"],
+      "favicon": "https://caniuse.com/img/favicon-128.png",
+      "addedDate": "2025-06-10"
+    },
+    {
+      "id": 5,
+      "title": "阮一峰的网络日志",
+      "url": "https://www.ruanyifeng.com/blog/",
+      "description": "知名技术博客，内容丰富且易懂",
+      "category": "技术博客",
+      "tags": ["技术博客", "JavaScript", "编程"],
+      "favicon": "https://www.ruanyifeng.com/favicon.ico",
+      "addedDate": "2025-06-10"
+    },    {
+      "id": 6,
+      "title": "AWS 控制台",
+      "url": "https://aws.amazon.com/console/",
+      "description": "Amazon Web Services 管理控制台",
+      "category": "云服务平台",
+      "tags": ["AWS", "云服务", "部署"],
+      "favicon": "https://aws.amazon.com/favicon.ico",
+      "addedDate": "2025-06-10"
+    },
+    {
+      "id": 7,
+      "title": "CodePen",
+      "url": "https://codepen.io",
+      "description": "前端代码在线编辑和分享平台",
+      "category": "在线工具",
+      "tags": ["在线编辑器", "前端", "代码分享"],
+      "favicon": "https://codepen.io/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 8,
+      "title": "Emmet Cheat Sheet",
+      "url": "https://docs.emmet.io/cheat-sheet/",
+      "description": "Emmet 快捷键和语法参考手册",
+      "category": "前端资源",
+      "tags": ["Emmet", "快捷键", "HTML", "CSS"],
+      "favicon": "https://docs.emmet.io/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 9,
+      "title": "HTML5 Reference by MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/HTML",
+      "description": "MDN 官方 HTML5 参考文档",
+      "category": "文档工具",
+      "tags": ["HTML5", "MDN", "参考文档"],
+      "favicon": "https://developer.mozilla.org/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 10,
+      "title": "HTML Entity Reference",
+      "url": "https://css-tricks.com/snippets/html/glyphs/",
+      "description": "CSS-Tricks 提供的 HTML 实体字符参考",
+      "category": "前端资源",
+      "tags": ["HTML", "实体字符", "参考"],
+      "favicon": "https://css-tricks.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 11,
+      "title": "CSS3 Reference by MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "description": "MDN 官方 CSS3 参考文档",
+      "category": "文档工具",
+      "tags": ["CSS3", "MDN", "参考文档"],
+      "favicon": "https://developer.mozilla.org/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 12,
+      "title": "30 CSS Selectors",
+      "url": "https://code.tutsplus.com/tutorials/the-30-css-selectors-you-must-memorize--net-16048",
+      "description": "Tuts+ 精选的 30 个必须掌握的 CSS 选择器",
+      "category": "学习资源",
+      "tags": ["CSS", "选择器", "教程"],
+      "favicon": "https://code.tutsplus.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 13,
+      "title": "Clippy",
+      "url": "https://bennettfeely.com/clippy/",
+      "description": "CSS clip-path 属性在线生成工具",
+      "category": "在线工具",
+      "tags": ["CSS", "clip-path", "生成器"],
+      "favicon": "https://bennettfeely.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 14,
+      "title": "JavaScript Reference by MDN",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "description": "MDN 官方 JavaScript 参考文档",
+      "category": "文档工具",
+      "tags": ["JavaScript", "MDN", "参考文档"],
+      "favicon": "https://developer.mozilla.org/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 15,
+      "title": "DOM Manipulation Reference",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model",
+      "description": "DOM 操作参考文档和API指南",
+      "category": "文档工具",
+      "tags": ["DOM", "JavaScript", "API"],
+      "favicon": "https://developer.mozilla.org/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 16,
+      "title": "JavaScript KeyCodes Reference",
+      "url": "https://keycode.info/",
+      "description": "JavaScript 键盘事件 KeyCode 参考工具",
+      "category": "前端资源",
+      "tags": ["JavaScript", "KeyCode", "键盘事件"],
+      "favicon": "https://keycode.info/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 17,
+      "title": "Google Fonts",
+      "url": "https://fonts.google.com",
+      "description": "Google 免费字体库",
+      "category": "前端资源",
+      "tags": ["字体", "Google", "免费"],
+      "favicon": "https://fonts.google.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 18,
+      "title": "A Pocket Guide to Typography",
+      "url": "http://www.typogui.de/",
+      "description": "字体排版设计指南和最佳实践",
+      "category": "前端资源",
+      "tags": ["字体", "排版", "设计"],
+      "favicon": "http://www.typogui.de/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 19,
+      "title": "Tailwind Colors",
+      "url": "https://tailwindcss.com/docs/customizing-colors",
+      "description": "Tailwind CSS 官方色彩系统",
+      "category": "前端资源",
+      "tags": ["Tailwind", "颜色", "CSS"],
+      "favicon": "https://tailwindcss.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 20,
+      "title": "Flat UI Colors",
+      "url": "https://flatuicolors.com/",
+      "description": "扁平化设计风格的颜色调色板",
+      "category": "前端资源",
+      "tags": ["颜色", "扁平化", "调色板"],
+      "favicon": "https://flatuicolors.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 21,
+      "title": "LOL Colors Palettes",
+      "url": "https://www.webdesignrankings.com/resources/lolcolors/",
+      "description": "精美的颜色组合调色板集合",
+      "category": "前端资源",
+      "tags": ["颜色", "调色板", "设计"],
+      "favicon": "https://www.webdesignrankings.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 22,
+      "title": "UI Gradients",
+      "url": "https://uigradients.com/",
+      "description": "美丽的CSS渐变色集合",
+      "category": "前端资源",
+      "tags": ["渐变", "CSS", "颜色"],
+      "favicon": "https://uigradients.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 23,
+      "title": "Coolors Contrast Checker",
+      "url": "https://coolors.co/contrast-checker",
+      "description": "颜色对比度检查工具，确保可访问性",
+      "category": "在线工具",
+      "tags": ["颜色", "对比度", "可访问性"],
+      "favicon": "https://coolors.co/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 24,
+      "title": "Unsplash",
+      "url": "https://unsplash.com",
+      "description": "高质量免费摄影图片素材库",
+      "category": "前端资源",
+      "tags": ["图片", "素材", "免费"],
+      "favicon": "https://unsplash.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 25,
+      "title": "Pexels",
+      "url": "https://www.pexels.com",
+      "description": "免费高质量图片和视频素材库",
+      "category": "前端资源",
+      "tags": ["图片", "视频", "素材", "免费"],
+      "favicon": "https://www.pexels.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 26,
+      "title": "Phosphor Icons",
+      "url": "https://phosphoricons.com/",
+      "description": "灵活的图标库，支持多种样式",
+      "category": "前端资源",
+      "tags": ["图标", "SVG", "开源"],
+      "favicon": "https://phosphoricons.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 27,
+      "title": "React Icons",
+      "url": "https://react-icons.github.io/react-icons/",
+      "description": "流行图标库的 React 组件集合",
+      "category": "前端资源",
+      "tags": ["React", "图标", "组件"],
+      "favicon": "https://react-icons.github.io/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 28,
+      "title": "Land Book",
+      "url": "https://land-book.com/",
+      "description": "优秀着陆页设计作品展示",
+      "category": "前端资源",
+      "tags": ["设计", "着陆页", "灵感"],
+      "favicon": "https://land-book.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 29,
+      "title": "One Page Love",
+      "url": "https://onepagelove.com/",
+      "description": "单页网站设计灵感和模板",
+      "category": "前端资源",
+      "tags": ["单页", "设计", "模板"],
+      "favicon": "https://onepagelove.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 30,
+      "title": "Dribbble",
+      "url": "https://dribbble.com/",
+      "description": "设计师作品展示和交流平台",
+      "category": "前端资源",
+      "tags": ["设计", "UI", "灵感"],
+      "favicon": "https://dribbble.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 31,
+      "title": "Stack Overflow",
+      "url": "https://stackoverflow.com/",
+      "description": "程序员问答社区，解决编程问题",
+      "category": "学习资源",
+      "tags": ["问答", "编程", "社区"],
+      "favicon": "https://stackoverflow.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 32,
+      "title": "CSS Tricks",
+      "url": "https://css-tricks.com/",
+      "description": "CSS 技巧、教程和前端开发资源",
+      "category": "技术博客",
+      "tags": ["CSS", "前端", "教程"],
+      "favicon": "https://css-tricks.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 33,
+      "title": "Smashing Magazine",
+      "url": "https://www.smashingmagazine.com/",
+      "description": "专业的网页设计和开发杂志",
+      "category": "技术博客",
+      "tags": ["设计", "开发", "杂志"],
+      "favicon": "https://www.smashingmagazine.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 34,
+      "title": "Codrops",
+      "url": "https://tympanus.net/codrops/",
+      "description": "创意前端开发教程和实验",
+      "category": "技术博客",
+      "tags": ["前端", "创意", "实验"],
+      "favicon": "https://tympanus.net/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 35,
+      "title": "Front End Front",
+      "url": "https://frontendfront.com/",
+      "description": "前端开发新闻和资源聚合",
+      "category": "技术博客",
+      "tags": ["前端", "新闻", "资源"],
+      "favicon": "https://frontendfront.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 36,
+      "title": "Node.js Documentation",
+      "url": "https://nodejs.org/en/docs/",
+      "description": "Node.js 官方文档",
+      "category": "文档工具",
+      "tags": ["Node.js", "后端", "文档"],
+      "favicon": "https://nodejs.org/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 37,
+      "title": "Express Reference",
+      "url": "https://expressjs.com/",
+      "description": "Express.js 官方文档和API参考",
+      "category": "后端工具",
+      "tags": ["Express", "Node.js", "框架"],
+      "favicon": "https://expressjs.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 38,
+      "title": "Node.js Best Practices",
+      "url": "https://github.com/goldbergyoni/nodebestpractices",
+      "description": "Node.js 最佳实践指南",
+      "category": "GitHub项目",
+      "tags": ["Node.js", "最佳实践", "指南"],
+      "favicon": "https://github.com/favicon.ico",
+      "addedDate": "2025-06-11"
+    },
+    {
+      "id": 39,
+      "title": "Ruby Documentation",
+      "url": "https://ruby-doc.org/",
+      "description": "Ruby 官方文档和API参考",
+      "category": "后端工具",
+      "tags": ["Ruby", "文档", "API"],
+      "favicon": "https://ruby-doc.org/favicon.ico",
+      "addedDate": "2025-06-11"
+    }
+  ],
+  "categories": [
+    "开发工具",
+    "在线工具", 
+    "学习资源",
+    "技术博客",
+    "GitHub项目",
+    "MCP相关",
+    "云服务平台",
+    "前端资源",
+    "后端工具",
+    "DevOps工具",
+    "AI/ML工具",
+    "文档工具"
+  ]
+}
